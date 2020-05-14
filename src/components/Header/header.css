@@ -1,0 +1,97 @@
+.header {
+  padding: 5px 0;
+  position: fixed;
+  min-width: 100%;
+  z-index: 999;
+}
+
+.header .leftHeader {
+  margin-left: 5%;
+}
+
+.header .leftHeader p {
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+}
+
+.header .leftHeader a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.header .centerHeader {
+  line-height: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.header .centerHeader a {
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.header .centerHeader p {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0;
+  justify-content: center;
+}
+
+.header .rightHeader a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .rightHeader {
+  text-align: right;
+  margin-right: 5%;
+}
+
+.header .rightHeader .NoUserButton {
+  display: inline-block;
+  text-align: center;
+  width: 130px;
+  padding: 2% 0;
+  max-width: 130px;
+  border: 2px solid #F3A712;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.header .rightHeader a:last-child {
+  border: 2px solid #fff;
+}
+
+@media screen and (max-width: 992px) {
+  #head-left-text {
+    display: none;
+  }
+  #head-content {
+    justify-content: space-between;
+  }
+  .header .centerHeader {
+    text-align: start;
+    margin-left: 5%;
+  }
+  .header .centerHeader a {
+    white-space: nowrap;
+  }
+  .header .centerHeader p {
+    font-size: 15px;
+  }
+  .header .rightHeader a {
+    width: 100px;
+  }
+  .header .rightHeader a:last-child {
+    margin-top: 5px;
+  }
+}

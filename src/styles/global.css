@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, border-style, #root {
+  min-height: 100%;
+}
+
+body, input, button {
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !important; }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.default-box {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/*CORES DE FONTE E BACKGROUND*/
+
+.white_bg {
+  background: #fff;
+}
+
+.standard_primary_bg {
+  background: #232f3e;
+}
+
+.standard_secondary_bg {
+  background: #F3A712;
+}
+
+.gray_bg {
+  background-color: #F2F4F8;
+}
+
+.white_clr {
+  color: #fff;
+}
+
+.primary_clr {
+  color: #6E87DE;
+}
+
+.secondary_clr {
+  color: #F3A712;
+}
+
+.gray_clr {
+  color: #98999a;
+}
+
+/*FONT-WEIGHT*/
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.inputPd {
+  background: #fff;
+  display: inline-block;
+  height: 45px;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.footer-botton {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.spinner-default {
+  width: 20px!important;
+  height: 20px!important;
+  border-color: #fff!important;
+  margin: 0 auto;
+}
+
+/*Barra de rolagem*/
+
+::-webkit-scrollbar-track {
+  background-color: #222222;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#ffc85b), to(#f3a712))
+}
+
+/*::-webkit-scrollbar-thumb
+{
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.18, rgba(36,32,56,100)),
+									   color-stop(0.40, rgba(9,9,121,100)),
+									   color-stop(0.85, rgba(110,135,220,100)));
+}
+*/

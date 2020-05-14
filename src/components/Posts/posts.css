@@ -1,0 +1,34 @@
+.post {
+	margin-left: 5%;
+}
+
+.post-header p{
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+
+.post-header span{
+  font-size: 0.8em;
+}
+
+.post-header .post-votation {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.post .post-header .post-votation svg{
+	  cursor: pointer;
+}
+.post .post-content {
+	margin-top: 10px;
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 992px) {
+	.post{
+		margin: 20px auto;
+	}
+}

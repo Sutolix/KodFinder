@@ -1,0 +1,55 @@
+#welcome-box {
+  position: relative;
+  margin-left: 65px;
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+
+#welcome-box h3 {
+  font-size: 0.9em;
+}
+
+#welcome-box h4 {
+  font-size: 0.8em;
+}
+
+#welcome-box button {
+  font-size: 0.8em;
+  padding: 4px 12px;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 8px;
+}
+
+#welcome-box button:hover {
+  background: #6E87DE;
+}
+
+#welcome-box button a {
+  text-decoration: none;
+}
+
+#welcome-box p {
+  font-size: 12px;
+}
+
+#close-button {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  background: #F2F4F8;
+  border-radius: 50%;
+  border: 1px solid #F2F4F8;
+}
+
+#close-button {
+  cursor: pointer;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 992px) {
+  #welcome-box {
+    margin: 10px 0 !important;
+  }
+}

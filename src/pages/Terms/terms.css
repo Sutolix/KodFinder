@@ -1,0 +1,29 @@
+/*Head*/
+
+.terms-page .terms-info {
+  margin-top: 65px;
+}
+
+.terms-page .terms-info .terms-title {
+  height: 130px;
+}
+
+.terms-page .terms-info .terms-title p {
+  margin: 0 5%;
+  font-size: 30px;
+}
+
+.terms-page .terms-info .terms {
+  margin: 50px 5%;
+}
+
+.terms-page .terms-info .terms .details-terms h3 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.terms-page .logo-icon img {
+  max-width: 150px;
+  cursor: pointer;
+}

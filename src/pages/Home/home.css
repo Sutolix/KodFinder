@@ -1,0 +1,40 @@
+#home-page {
+  margin: 100px 5% 30px;
+}
+
+#home-page .react-spinner-material {
+  margin: 0 auto;
+}
+
+/*LADO ESQUERDO*/
+
+#left-home-page {
+  min-width: 350px;
+}
+
+/*LADO DIREITO*/
+
+#right-home-page {
+  min-width: calc(100% - 350px);
+}
+
+#right-home-page #pagination {
+  display: flex;
+  justify-content: center;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 992px) {
+  #home-base {
+    flex-direction: column;
+  }
+  #left-home-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #right-home-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,109 @@
+#register-page {
+  margin-top: 100px;
+}
+
+.container .title p {
+  font-size: 21px;
+}
+
+.container .welcone {
+  color: #808080;
+}
+
+.container .welcone span {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.container .welcone p {
+  font-size: 28px;
+}
+
+.box-register form {
+  widtH: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container .box-register form input[type=text], .container .box-register form input[type=email] {
+  width: 100%;
+  max-width: 500px;
+}
+
+.container .box-register form input[type=password], .container .box-register form input[type=date], .container .box-register form select {
+  width: 100%;
+}
+
+.container .box-register input::placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
+.container form .CadBotao {
+  display: flex;
+  justify-content: center;
+}
+
+.form-check-label {
+  margin-bottom: 0;
+  color: #222222;
+}
+
+.container .box-register form .recaptcha {
+  margin-top: 10px;
+  height: 75px;
+}
+
+.container .box-register form button {
+  text-align: center;
+  width: 180px;
+  height: 40px;
+  padding: 10px 40px;
+  margin: 0 auto 30px auto;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+}
+
+.formErrors {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ef6565;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.formErrors div {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 70%;
+  padding: 7px 15px;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.formErrors div>svg:not(.close-error) {
+  margin-right: 5px;
+}
+
+.formErrors div>svg.close-error {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,296 @@
+/*GERAL*/
+
+#edit-perfil-page {
+  margin-top: 100px;
+}
+
+.edit-tittle {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*-----INFORMAÇÕES À ESQUERDA-----*/
+
+/*INFORMAÇÕES PESSOAIS*/
+
+#edit-left-info #personal-info {
+  background: #fff;
+}
+
+#edit-left-info label {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+#edit-left-info input {
+  border: 1px solid #ced4da;
+}
+
+#edit-left-info #personal-info input::placeholder {
+  color: #000;
+  font-size: 14px;
+}
+
+#edit-left-info .sexo {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+#edit-left-info .sexo input {
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+/*RADIO INPUT*/
+
+#gender-input input[type=radio] {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+#gender-input input[type=radio]+label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+#gender-input input[type='radio']:checked~label {
+  color: #384450;
+}
+
+#gender-input input[type='radio']+label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 2px;
+  vertical-align: bottom;
+}
+
+#gender-input input[type='radio']:checked+label::after {
+  content: '';
+  background-color: #F3A712;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  bottom: 8px;
+}
+
+#personal-info .technologies input[type="checkbox"] {
+  display: none;
+}
+
+#personal-info .technologies input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #EEE;
+  border-radius: 5px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+  transition: .2s ease;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -o-transition: .2s ease;
+}
+
+#personal-info .technologies input[type="checkbox"]:checked + label {
+  background: rgb(85, 182, 85);
+  color: #FFFFFF;
+}
+
+/*ABOUT YOU*/
+
+.about-you {
+  background-color: #fff;
+  margin: 40px 0;
+}
+
+.about-you .about-top {
+  padding-bottom: 40px;
+}
+
+.about-you .about-top #add-select-tech-box {
+  max-height: 33px;
+}
+
+.about-you .about-top h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #A0A0A0;
+  padding-bottom: 10px;
+}
+
+.about-you .about-top .techs-used .span-techs-edit {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.about-you .about-top .techs-used .tech-box-edit {
+  max-width: 60px;
+}
+
+.about-you .about-top .techs-used .span-techs-edit span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+#add-select-tech-box select {
+  background: #F2F4F8;
+}
+
+.about-you .about-top .add-tech button {
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.about-you .biography {
+  padding: 12px 50px 50px;
+}
+
+/*ABOUT YOU COM HISTÓRIA*/
+
+/*
+.about-you .biography img{
+    width: 152px;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.about-you .biography p{
+    font-size: 16px;
+    color: #242038;
+}
+*/
+
+/*ABOUT YOU SEM HISTÓRIA*/
+
+.about-you .biography #no-history {
+  padding: 50px 0;
+}
+
+.about-you .biography #no-history p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #777;
+  padding: 50px 0;
+}
+
+.about-you .biography #no-history button {
+  max-width: 150px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*-----INFORMAÇÕES A DIREITA-----*/
+
+#edit-right-info .add-tech {
+  background: #fff;
+}
+
+#edit-right-info .add-tech form {
+  margin: 0;
+}
+
+#edit-right-info .add-tech form input, #edit-right-info .add-tech form label {
+  cursor: pointer;
+}
+
+#edit-right-info .add-tech form button {
+  margin: 20px 0 0 0;
+}
+
+/*ADICIONAR GITHUB*/
+
+#edit-right-info .add-github {
+  background: #fff;
+}
+
+#edit-right-info .add-github input {
+  padding-left: 10px;
+  width: 80%;
+  background: #F2F4F8;
+}
+
+#edit-right-info .add-github input::placeholder {
+  padding-left: 10px;
+}
+
+#edit-right-info .add-github button {
+  padding: 0 20px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+}
+
+#edit-perfil-avatar {
+  width: 90px;
+  height: 90px;
+  margin: 130px 0 0 20px;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 767px) {
+  #edit-left-info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #edit-right-info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about-you .about-top .add-tech {
+    margin-top: 1rem;
+  }
+  .about-you .biography {
+    padding: 20px;
+  }
+  #sexo-label {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #edit-right-info {
+    padding-right: 0;
+  }
+  #edit-right-info .add-techs .col-6 {
+    flex: 0 1 auto;
+    max-width: 100%;
+  }
+  .add-github form {
+    flex-direction: column;
+  }
+  .add-github form input {
+    width: 100%!important;
+  }
+  .add-github form button {
+    height: 30px;
+  }
+}

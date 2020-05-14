@@ -1,0 +1,72 @@
+.box_list {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+.list-title {
+  color: #fff;
+  height: 30px;
+  border-radius: 5px 5px 50px 0;
+}
+
+.popular-list-box {
+  padding-top: 8px;
+}
+
+.box_list .popular-count {
+  border-bottom: 2px solid #F2F4F8;
+  margin: 0;
+  padding: 7px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+/*For Top Languages*/
+
+.box_list .popular-count .list-popular-icon {
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.box_list .popular-count .list-popular-icon:hover {
+  background: #F3A712;
+}
+
+.box_list .popular-count .item-name {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.box_list .popular-count .count-popular-item {
+  margin-bottom: 0;
+  color: #777;
+}
+
+.box_list .popular-count:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.box_list .popular-count:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+/*For New Users List*/
+
+.box_list .popular-count .list-popular-icon img{
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.user-list p{
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.user-list .main-tech{
+  font-size: 0.8em;
+}
+
+

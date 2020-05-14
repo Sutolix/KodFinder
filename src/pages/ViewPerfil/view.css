@@ -1,0 +1,140 @@
+/*Head*/
+
+.view-perfil .box-view {
+  margin-top: 100px;
+}
+
+.view-perfil .box-view .view-top {
+  height: 120px;
+  background: linear-gradient(279.29deg, #F3A712 -8.92%, #232f3e 60.22%), #232f3e;
+  border-radius: 10px 10px 0 0;
+}
+
+.view-perfil .box-view .view-top img {
+  width: 125px;
+  height: 125px;
+  margin: 33px 27px 0 27px;
+}
+
+#adminview {
+  width: 50px;
+  height: 50px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIj4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiAjMzQwMDRiIH0gCgkJLnNocDEgeyBmaWxsOiAjNDgwOTY0IH0gCgkJLnNocDIgeyBmaWxsOiAjZmZmZjAwIH0gCgk8L3N0eWxlPgoJPHBhdGggaWQ9IkxheWVyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsYXNzPSJzaHAwIiBkPSJNNDYuMzMgMTMuNzZMNDYuMzMgMzYuNDhDNDYuMzMgMzcuMDYgNDYuMDEgMzcuNTUgNDUuNTEgMzcuODhMMjUuODIgNDkuMjhDMjUuMzMgNDkuNjEgMjQuNjcgNDkuNjEgMjQuMTggNDkuMjhMNC40OSAzNy44OEMzLjk5IDM3LjYzIDMuNjcgMzcuMDYgMy42NyAzNi40OEwzLjY3IDEzLjc2QzMuNjcgMTMuMTggMy45OSAxMi42OSA0LjQ5IDEyLjM2TDI0LjE4IDEuMDRDMjQuNjcgMC43MSAyNS4zMyAwLjcxIDI1LjgyIDEuMDRMNDUuNTEgMTIuMzZDNDYuMDEgMTIuNjkgNDYuMzMgMTMuMTggNDYuMzMgMTMuNzZaTTQzLjA1IDE0Ljc0TDI1IDQuMzJMNi45NSAxNC43NEw2Ljg5IDI5LjAxTDYuOTUgMzUuNThMMjUgNDZMNDMuMDUgMzUuNThMNDMuMDUgMTQuNzRaIiAvPgoJPHBhdGggaWQ9IkZvcm1hIDQiIGNsYXNzPSJzaHAwIiBkPSIiIC8+Cgk8cGF0aCBpZD0iRm9ybWEgNCIgY2xhc3M9InNocDEiIGQ9IiIgLz4KCTxwYXRoIGlkPSJGb3JtYSAxIiBjbGFzcz0ic2hwMSIgZD0iIiAvPgoJPHBhdGggaWQ9IkZvcm1hIDIiIGNsYXNzPSJzaHAxIiBkPSIiIC8+Cgk8cGF0aCBpZD0iRm9ybWEgMyIgY2xhc3M9InNocDEiIGQ9Ik02Ljg5IDE5LjVMNi44OSAzNS42NUwyNSA0Ni4xM0w0My4xNSAzNS42NEw0My4xNiAyNS44OEM0My4xNiAyNS44OCA0MC4xIDI4LjY1IDI4LjIxIDI2Ljc3QzIyLjg5IDI1LjkzIDIwIDI1LjIgMTQuMTcgMjEuNzdDMTIuNzcgMjAuOTQgOS4xMSAxOS43NCA2Ljg5IDE5LjVaIiAvPgoJPHBhdGggaWQ9IkxheWVyIiBjbGFzcz0ic2hwMiIgZD0iTTI4LjA0IDIxLjg4TDM0Ljg1IDIyLjg2TDI5LjkyIDI3LjdMMzEuMDcgMzQuNTFMMjUgMzEuMjNMMTguOTMgMzQuNDNMMjAuMDggMjcuNjJMMTUuMTUgMjIuNzhMMjEuOTYgMjEuOEwyNSAxNS42NEwyOC4wNCAyMS44OFoiIC8+Cjwvc3ZnPg==);
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+.view-perfil .box-view .view-top span {
+  font-weight: 500;
+  font-size: 33px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/*Quadro de informações*/
+
+.view-perfil .box-view .view-info {
+  padding: 70px 20px 60px 20px;
+  margin-bottom: 50px;
+  background: #fff;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+/*Lado esquerdo*/
+
+.view-perfil .box-view .view-info .left-info h3 {
+  font-size: 23px;
+  color: #242038;
+  margin-bottom: 0;
+}
+
+.view-perfil .box-view .view-info .left-info span {
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.view-perfil .box-view .view-info .left-info p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 135%;
+  color: #242038;
+  font-style: italic;
+}
+
+/*Lado direito*/
+
+.view-perfil .box-view .view-info .right-info .title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.view-perfil .box-view .view-info .right-info .tech-box {
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px 0 0;
+  border-radius: 30px;
+  min-width: 75px;
+}
+
+.view-perfil .box-view .view-info .right-info .tech-box p {
+  margin-bottom: 0;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.view-perfil .box-view .view-info .right-info .techs {
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.view-perfil .box-view .view-info .right-info .git-view {
+  margin-top: 30px;
+}
+
+.view-perfil .box-view .view-info .right-info .git-view h4 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.view-perfil .box-view .view-info .right-info .git-view span {
+  font-size: 1em;
+}
+
+.view-perfil .image-back img {
+  width: 350px;
+  float: right;
+}
+
+@media screen and (max-width: 560px) {
+  #adminview {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .view-perfil .box-view .view-info .right-info .yours-techs span {
+    margin: 0;
+  }
+  .view-perfil .box-view .view-info .right-info .techs {
+    justify-content: center;
+  }
+  .view-perfil .image-back img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .view-perfil .image-back img {
+    width: 34.5em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .view-perfil .image-back img {
+    width: 26.5em;
+  }
+}

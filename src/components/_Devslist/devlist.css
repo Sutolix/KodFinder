@@ -1,0 +1,64 @@
+#devs {
+  margin: 0 0 0 50px;
+  font-size: 0.8em;
+  display: flex;
+}
+
+#devs a {
+  text-decoration: none;
+}
+
+#devs .dev-info p:first-child {
+  margin-bottom: 5px;
+}
+
+#devs .dev-info p:nth-child(2) {
+  margin-bottom: 5px;
+  color: #6E87DE;
+}
+
+#devs .dev-info p:last-child {
+  color: #959292;
+  margin-bottom: 0;
+}
+
+#devs img {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+#devs .dev {
+  min-width: 210px;
+  min-height: 102px;
+  padding: 8px;
+  margin-bottom: 15px;
+  background: #fff;
+  border-radius: 10px 0 10px 0;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+#devs .dev:hover {
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+#devs .dev-info {
+  margin-left: 10px;
+}
+
+#devs .react-spinner-material {
+  margin: 0 auto;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 992px) {
+  #devs {
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  #most-popular-techs {
+    display: none;
+  }
+}

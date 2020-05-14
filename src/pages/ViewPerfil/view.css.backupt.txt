@@ -1,0 +1,111 @@
+.view-perfil .view-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-perfil .box-view{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.view-perfil .box-view .view-top{
+    min-width: 500px;
+    height: 120px;
+    background: linear-gradient(279.29deg, #F3A712 -8.92%, #6E87DE 60.22%), #6E87DE;
+    border-radius: 10px 10px 0 0;
+}
+
+.view-perfil .box-view .view-top img{
+    width: 125px;
+    margin: 33px 27px 0 27px;
+}
+
+.view-perfil .box-view .view-top span{
+    font-weight: 500;
+    font-size: 33px;
+    color: #fff;
+}
+.view-perfil .box-view .view-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 20px 60px 20px;
+    margin-bottom: 50px;
+    background: #fff;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+.view-perfil .box-view .view-info .left-info{
+    width: 60%;
+}
+
+.view-perfil .box-view .view-info .left-info h3{
+    font-size: 23px;
+    color: #242038;
+    margin-bottom: 0;
+}
+
+.view-perfil .box-view .view-info .left-info span{
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.view-perfil .box-view .view-info .left-info p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 135%;
+    color: #242038;
+}
+
+.view-perfil .box-view .view-info .right-info{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-perfil .box-view .view-info .right-info .title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.view-perfil .box-view .view-info .right-info .tech-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 15px 0 0;
+    border-radius: 30px;
+
+}
+
+.view-perfil .box-view .view-info .right-info .tech-box p{
+    margin-bottom: 0;
+    padding: 5px 24px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.view-perfil .box-view .view-info .right-info .techs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+}
+
+.view-perfil .box-view .view-info .right-info .git-view{
+    margin-top: 30px;
+}
+
+.view-perfil .box-view .view-info .right-info .git-view h4{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.view-perfil .box-view .view-info .right-info .git-view span{
+    font-size: 1em;
+}
+
+.view-perfil .image-back img{
+    width: 350px;
+    float: right;
+}

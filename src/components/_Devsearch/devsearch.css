@@ -1,0 +1,31 @@
+#searching-user {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+#searching-user input {
+  margin-bottom: 20px;
+  font-size: 0.8em;
+}
+
+#searching-user select {
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  padding: 6px 10px;
+}
+
+#search-techs {
+  font-size: 12px;
+  display: flex;
+}
+
+#search-techs span {
+  padding: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#search-techs .blue-circle {
+  margin-right: 5px;
+  border-radius: 30px;
+}

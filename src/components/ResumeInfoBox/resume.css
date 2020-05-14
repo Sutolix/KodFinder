@@ -1,0 +1,51 @@
+#edit-right-info .resume-info-box {
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+/*BOX COLORIDO*/
+
+#edit-right-info .resume-info-box .banner-top-info-box {
+  height: 180px;
+  background: linear-gradient(138.84deg, #6E87DE 32.89%, #F3A712 121.32%), #6E87DE;
+  border-radius: 10px 10px 0 0;
+}
+
+/*BOX COM INFORMAÇÕES DO USUÁRIO*/
+
+#edit-right-info .resume-info-box #nick {
+  margin-top: 15px;
+}
+
+#edit-right-info .resume-info-box #nick span {
+  margin-left: 120px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#edit-right-info .social-info {
+  padding: 40px 0 30px 0;
+  margin: 0;
+}
+
+#edit-right-info .social-info p {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#edit-right-info .social-info span {
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+#edit-right-info .social-info .informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#edit-right-info .social-info .informations svg {
+  cursor: pointer;
+}

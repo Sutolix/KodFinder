@@ -1,0 +1,23 @@
+.Footer {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.Footer .footer-info {
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0 15px;
+  background: #131A22;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.Footer .footer-info .footer-copyright {
+  font-size: 12px;
+}
+
+.Footer .footer-info .footer-logo-name {
+  font-size: 22px;
+  font-weight: 900;
+}
